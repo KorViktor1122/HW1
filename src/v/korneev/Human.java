@@ -1,6 +1,6 @@
 package v.korneev;
 
-public class human implements rulls {
+public class Human implements Rulls {
     public static void main(String[] args) {
         System.out.println(" У человека есть имя, а также он умеет бегать и прыгать. ");
     }
@@ -8,7 +8,7 @@ public class human implements rulls {
     String name;
     int distancte, upjump;
 
-    human(String name, int distancte, int upjump) {
+    Human(String name, int distancte, int upjump) {
         this.name = name;
         this.distancte = distancte;
         this.upjump = upjump;
