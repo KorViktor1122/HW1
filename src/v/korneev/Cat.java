@@ -1,6 +1,6 @@
 package v.korneev;
 
-public class Cat implements rulls{
+public class Cat implements Rulls{
     public static void main(String[] args) {
         System.out.println("Кот может прыгать, " + "\n" + "\t"  + " кот может бегать");
     }
@@ -13,6 +13,22 @@ public class Cat implements rulls{
         this.distancte = distancte;
         this.upjump = upjump;
     }
+    public int getDistancte() {
+        return distancte = 500;
+    }
+
+    public String getName() {
+        return name = "Volt";
+    }
+
+    public int getUpjump() {
+        return upjump = 1;
+    }
+
+    public Cat() {
+        getName();getDistancte();getUpjump();
+    }
+
 
     @Override
     public int length() {
