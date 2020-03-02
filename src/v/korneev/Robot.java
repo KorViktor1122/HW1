@@ -1,6 +1,6 @@
 package v.korneev;
 
-public class Robot implements rulls{
+public class Robot implements Rulls{
     public static void main(String[] args) {
         System.out.println("Робот может прыгать, " + "\n" + "\t" + " робот может бегать" );
     }
@@ -12,6 +12,22 @@ public class Robot implements rulls{
         this.distancte = distancte;
         this.upjump = upjump;
     }
+    public int getDistancte() {
+        return distancte = 1000;
+    }
+
+    public String getName() {
+        return name = "Verder";
+    }
+
+    public int getUpjump() {
+        return upjump = 1;
+    }
+
+    public Robot() {
+        getName();getDistancte();getUpjump();
+    }
+
 
     @Override
     public int length() {
